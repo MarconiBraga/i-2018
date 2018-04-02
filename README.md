@@ -1,1 +1,1 @@
-i-2018
+A disciplina é de natureza prática e concentra-se em aspectos técnicos relevantes para a integração de aplicações, que é um tópico corrente e típico de organizações que produzem e fazem uso de software. A aprovação nessa disciplina exige a identificação de um problema e o posterior desenvolvimento (atividade prática de integração), ambos acompanhadas em todas as aulas pelo docente.
