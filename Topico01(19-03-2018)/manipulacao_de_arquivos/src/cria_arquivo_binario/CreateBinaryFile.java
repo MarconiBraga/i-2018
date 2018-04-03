@@ -8,7 +8,7 @@ public class CreateBinaryFile {
 
     public static void main(String[] args) throws IOException {
 
-        int inteiro = 20;
+        int inteiro = 20; //Exemplo
 
         FileOutputStream fos = new FileOutputStream("binaryFile");
         DataOutputStream dos = new DataOutputStream(fos);

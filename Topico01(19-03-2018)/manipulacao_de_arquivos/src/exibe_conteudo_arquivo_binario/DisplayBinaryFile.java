@@ -13,6 +13,7 @@ public class DisplayBinaryFile {
         int valor = dis.readInt();
         dis.close();
         System.out.println(valor);
+	System.out.println(Integer.toHexString(valor)); //Exibição em hexadecimal
 
     }
 
