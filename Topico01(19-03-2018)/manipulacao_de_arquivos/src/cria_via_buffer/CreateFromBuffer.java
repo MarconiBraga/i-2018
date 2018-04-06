@@ -13,7 +13,7 @@ public class CreateFromBuffer {
 
     public static void main(String[] args) throws IOException {
 
-        Path arquivo = Paths.get("/user/name_user/i-2018/Topico01(19-03-2018)/manipulacao_de_arquivos", "file.txt");
+        Path arquivo = Paths.get(caminho_arquivo, "example.txt");
         int valor = Integer.parseInt("20"); //Exemplo
 
         ByteBuffer buffer = ByteBuffer.allocate(10);

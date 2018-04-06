@@ -10,7 +10,7 @@ public class DisplayFileContents {
 
     public static void main(String[] args) throws IOException {
         Charset uft8 = Charset.forName("UTF-8");
-        Path arquivo = Paths.get("/user/name_user/i-2018/Topico01(19-03-2018)/manipulacao_de_arquivos", "file.txt");
+        Path arquivo = Paths.get(caminho_arquivo, "example.txt");
         for (String linha : Files.readAllLines(arquivo, uft8)) {
             System.out.println(linha);
         }
