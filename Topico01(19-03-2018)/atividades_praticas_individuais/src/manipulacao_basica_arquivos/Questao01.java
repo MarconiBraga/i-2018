@@ -8,14 +8,14 @@ import java.util.Scanner;
 public class Questao01 {
 
     public static void main(String[] args) throws IOException{
-        System.out.println("Digite o nome do arquivo a ser lido e seu caminho no sistema para que possa ser lido pelo programa");
+        System.out.println("Digite o nome do arquivo e seu caminho!");
         Scanner scanner = new Scanner(System.in);
-        String caminhoDoArquivo = scanner.next();
-        Arquivo4EmHexadecimal(caminhoDoArquivo);
+        String caminhoArquivo = scanner.next();
+        File(caminhoArquivo);
     }
 
-    public static void Arquivo4EmHexadecimal(String caminhoDoArquivo) throws IOException {
-        FileInputStream arquivo = new FileInputStream(caminhoDoArquivo);
+    public static void File(String caminhoArquivo) throws IOException {
+        FileInputStream arquivo = new FileInputStream(caminhoArquivo);
         DataInputStream leitor = new DataInputStream(arquivo);
         int valor4Bytes = leitor.readInt();
         leitor.close();
