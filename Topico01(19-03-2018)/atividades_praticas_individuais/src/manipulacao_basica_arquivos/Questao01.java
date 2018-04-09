@@ -10,17 +10,16 @@ public class Questao01 {
     public static void main(String[] args) throws IOException{
         System.out.println("Digite o nome do arquivo e seu caminho!");
         Scanner scanner = new Scanner(System.in);
-        String caminho_arquivo = scanner.next();
-        File(caminho_arquivo);
+        String caminhoArquivo = scanner.next();
+        File(caminhoArquivo);
     }
 
-    public static void File(String caminho_arquivo) throws IOException {
-        FileInputStream arquivo = new FileInputStream(caminho_arquivo);
+    public static void File(String caminhoArquivo) throws IOException {
+        FileInputStream arquivo = new FileInputStream(caminhoArquivo);
         DataInputStream leitor = new DataInputStream(arquivo);
-        // "valor" refere-se ao valor de 4 bytes
-		int valor = leitor.readInt();
+        int valor4Bytes = leitor.readInt();
         leitor.close();
-        System.out.println(Integer.toHexString(valor));
+        System.out.println(Integer.toHexString(valor4Bytes));
     }
 
 }
