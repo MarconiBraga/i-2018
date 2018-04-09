@@ -7,15 +7,15 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Scanner;
 
-public class Main {
+public class Questao03 {
 
     public static void main(String[] args) throws IOException {
 	    System.out.println("Escreva o caminho do arquivo(UTF-8)");
 	    Scanner scanner = new Scanner(System.in);
 	    String path = scanner.next();
-	    Path caminho = Paths.get(path);
-	    for(String linha : Files.readAllLines(caminho, Charset.forName("UTF-8"))){
-	        System.out.println(linha);
+	    Path caminho_arquivo = Paths.get(path);
+	    for(String line : Files.readAllLines(caminho_arquivo, Charset.forName("UTF-8"))){
+	        System.out.println(line);
         }
     }
 }
