@@ -1,0 +1,8 @@
+5. Qual seria a representação em JSON de um objeto contendo as seguintes propriedades (e valores correspondentes)? Propriedades seguem em negrito.
+
+a. lista de cidades: Goiânia e Trindade; {“listaCidades”:”Goiânia”}
+b. salada: alface; {“salada”:”alface”}
+c. altura: 2,3; {“altura”:2,3}
+d. sabor preferido: (nenhum valor fornecido para esta propriedade); {“sabor”:null}
+	      
+{“listaCidades”:”Goiânia”, “salada”:”alface”, “altura”:2,3, “sabor”:null}

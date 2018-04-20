@@ -1,0 +1,6 @@
+2. Qual é o MIME type para arquivo contendo dados no formato JSON?
+	
+	O MIME type para o arquivo JSON é Application/JSON. A codificação padrão é   UTF-8. (fonte: RFC 4627).
+	
+	Para JSONP com retorno de chamada: aplicação/JavaScript
+

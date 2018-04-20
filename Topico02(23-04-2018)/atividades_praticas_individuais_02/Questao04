@@ -1,0 +1,13 @@
+4. Qual seria um possível arquivo JSON contendo dados correspondentes a uma instância de um objeto da classe Bicycle (disponível aqui)?
+
+{
+  "public": {},
+  "": {},
+  "gear": "startGear;",
+  "cadence": "startCadence;",
+  "speed": "startSpeed;",
+  "}": {},
+  "int": "",
+  "super(startCadence,startSpeed, startGear);": {},
+  "seatHeight": "startHeight;"
+}

@@ -1,0 +1,9 @@
+1. Quais são os valores (“literais”) admitidos em JSON? Não confunda com aqueles escritos entre aspas (sequências de caracteres). 
+
+	- a string
+	- a number
+	- an object (JSON object)
+	- an array
+	- a boolean
+	- null
+
