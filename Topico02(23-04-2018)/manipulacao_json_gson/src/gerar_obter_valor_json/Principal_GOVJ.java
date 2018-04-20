@@ -3,7 +3,7 @@ package gerar_obter_valor_json;
 import java.io.IOException;
 import com.google.gson.Gson;
 
-public class Principal {
+public class Principal_GOVJ {
 
     public static void main(String[] args) throws IOException {
         Gson gson = new Gson();
