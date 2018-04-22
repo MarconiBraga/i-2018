@@ -11,3 +11,11 @@
   "super(startCadence,startSpeed, startGear);": {},
   "seatHeight": "startHeight;"
 }
+
+
+{
+  "UI": 0002,
+  "cadence": 100,
+  "gear": 8,
+  "speed": 75
+}
