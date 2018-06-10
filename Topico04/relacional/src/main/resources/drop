@@ -1,0 +1,22 @@
+
+drop table comunicacao;
+
+drop table linha_endereco;
+drop table endereco;
+
+drop table vinculo;
+
+drop table representacao;
+
+drop table utilizacao;
+drop table nome;
+drop table titulo_eleitoral;
+drop table ctps;
+drop table certidao;
+drop table identificador;
+drop table data;
+drop table dado_demografico;
+drop table individuo;
+
+
+drop table nacionalidade;
